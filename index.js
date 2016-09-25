@@ -3,12 +3,12 @@
 var CompositeDisposable = require('atom').CompositeDisposable
 
 module.exports = {
-    activate () {
+    activate() {
         this.subscriptions = new CompositeDisposable()
         this.subscriptions.add(atom.workspace.observeTextEditors(this.setGrammar))
     },
 
-    deactivate () {
+    deactivate() {
         this.subscriptions.destroy()
     },
 
