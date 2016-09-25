@@ -1,0 +1,10 @@
+{
+  "name": "language-meson",
+  "description": "Set python syntax for meson.build files",
+  "repository": "https://github.com/benwaffle/language-meson",
+  "version": "0.0.0",
+  "main": "index.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
